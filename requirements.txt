@@ -55,8 +55,6 @@ multidict==6.1.0
 namex==0.0.8
 narwhals==1.22.0
 nest-asyncio==1.6.0
-numpy==2.2.0
-nvidia-nccl-cu12==2.24.3
 opt_einsum==3.4.0
 optree==0.13.1
 packaging==24.2
@@ -93,10 +91,6 @@ soupsieve==2.6
 stack-data==0.6.3
 streamlit==1.18.0
 tenacity==9.0.0
-tensorboard==2.18.0
-tensorboard-data-server==0.7.2
-tensorflow==2.18.0
-tensorflow-io-gcs-filesystem==0.37.1
 termcolor==2.5.0
 threadpoolctl==3.5.0
 toml==0.10.2
