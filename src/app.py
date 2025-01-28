@@ -75,11 +75,11 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # Display the logo in the top left corner
-logo_path = '/workspaces/maria272727fantasy_sports_assistant/src/score_castlogo.png'
+logo_path = './src/score_castlogo.png'
 st.image(logo_path, width=100)  # Adjust width as needed
 
 # Load your dataset from the pickle file
-data_path = '/workspaces/maria272727fantasy_sports_assistant/data/parsed_data_all_positions.pkl'
+data_path = './data/parsed_data_all_positions.pkl'
 
 # Load the data (assuming it's a pickle file containing a DataFrame)
 with open(data_path, 'rb') as f:
